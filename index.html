@@ -28,30 +28,41 @@
 
 <body data-spy="scroll" data-target=".navbar" data-offset="51">
     <!-- Navbar Start -->
-<nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-dark navbar-dark py-1 py-lg-0 px-lg-5">
-    <!-- Navbar brand aligned to the left -->
-    <a href="index.html" class="navbar-brand bg-primary px-4 mx-3 d-none d-lg-block">
-        <img src="img/luma-logo.png" class="display-4 text-white text-uppercase m-0"/>
-    </a>
-    <a href="index.html" class="navbar-brand d-block d-lg-none">
-        <h1 class="display-4 text-white text-uppercase m-0">LUMAFLOW ENERGY</h1>
-    </a>
-    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-        <!-- Centered Menu Items -->
-        <div class="navbar-nav mx-auto py-0">
-            <a href="index.html" class="nav-item nav-link active">Home</a>
-            <a href="about.html" class="nav-item nav-link">About</a>
-            <a href="services.html" class="nav-item nav-link">Service</a>
-            <a href="contact.html" class="nav-item nav-link">Contact</a>
+    <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-dark navbar-dark py-2 px-lg-5">
+        <!-- Navbar brand aligned to the left -->
+        <a href="index.html" class="navbar-brand bg-primary px-4 mx-3 d-none d-lg-block">
+            <img src="img/luma-logo.png" class="display-4 text-white text-uppercase m-0"/>
+        </a>
+        <a href="index.html" class="navbar-brand d-block d-lg-none">
+            <h1 class="display-4 text-white text-uppercase m-0">LUMAFLOW ENERGY</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <!-- Centered Menu Items -->
+            <div class="navbar-nav mx-auto py-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <a href="services.html" class="nav-item nav-link">Service</a>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
         </div>
-    </div>
-    <!-- Navbar brand visible only on large screens -->
+    </nav>
     
-</nav>
+    
+    <style>
+        .navbar {
+        width: 100%;
+        z-index: 1030; /* Ensures navbar stays on top */
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    }
+    
+    
+    </style>
 <!-- Navbar End -->
+
+
 
 
 
@@ -63,8 +74,8 @@
                 <img class="carousel-image position-absolute w-100 h-100" src="img/po1.jpeg" alt="Solar Energy">
                 <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                     <div class="p-3" style="max-width: 900px;">
-                        <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Power Plant Generation</h4>
-<h3 class="display-2 font-secondary text-white mb-4">Efficient and Sustainable Energy Production</h3>
+                        <h4 class="display-2 text-white text-uppercase mb-4" style="letter-spacing: 3px; font-size: 50px;">Power Plant Generation</h4>
+<h3 class="font-secondary text-white mb-4" style="font-size: 30px;">Efficient and Sustainable Energy Production</h3>
 
                        
                     </div>
@@ -74,8 +85,8 @@
                 <img class="carousel-image position-absolute w-100 h-100" src="img/po2.jpeg" alt="Let The Sun Work For Your Home">
                 <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                     <div class="p-3" style="max-width: 900px;">
-                        <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Renewable Energy Plant</h4>
-<h3 class="display-2 font-secondary text-white mb-4">Harnessing Clean Energy for a Brighter Future</h3>
+                        <h4 class="display-2 text-white text-uppercase mb-4" style="letter-spacing: 3px; font-size: 50px;">Renewable Energy Plant</h4>
+<h3 class="font-secondary text-white mb-4" style="font-size: 30px;">Harnessing Clean Energy for a Brighter Future</h3>
 
                     </div>
                 </div>
@@ -84,8 +95,8 @@
                 <img class="carousel-image position-absolute w-100 h-100" src="img/po3.jpeg" alt="Let The Sun Work For Your Home">
                 <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                     <div class="p-3" style="max-width: 900px;">
-                        <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Hydroelectric Power</h4>
-<h3 class="display-2 font-secondary text-white mb-4">Reliable Energy from Water Flow</h3>
+                        <h4 class="display-2 text-white text-uppercase mb-4" style="letter-spacing: 3px; font-size: 50px;">Hydroelectric Power</h4>
+<h3 class="font-secondary text-white mb-4" style="font-size: 30px;">Reliable Energy from Water Flow</h3>
 
                     </div>
                 </div>
@@ -94,8 +105,8 @@
                 <img class="carousel-image position-absolute w-100 h-100" src="img/so1.jpg" alt="Let The Sun Work For Your Home">
                 <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                     <div class="p-3" style="max-width: 900px;">
-                        <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Solar Energy</h4>
-                        <h3 class="display-2 font-secondary text-white mb-4">Let The Sun Work For Your Home</h3>
+                        <h4 class="display-2 text-white text-uppercase mb-4" style="letter-spacing: 3px; font-size: 50px;">Solar Energy</h4>
+                        <h3 class="font-secondary text-white mb-4" style="font-size: 30px;">Let The Sun Work For Your Home</h3>
                        
                     </div>
                 </div>
@@ -287,6 +298,36 @@
         </div>
     </div>
 </div>
+
+<style>
+    .product-item {
+    height: 100%; /* Ensures all cards have the same height */
+    display: flex;
+    flex-direction: column;
+}
+
+.product-img img {
+    width: 100%; 
+    height: 200px; /* Set a fixed height */
+    object-fit: cover; /* Ensures images cover the area without stretching */
+}
+
+.bg-secondary {
+    flex-grow: 1; /* Makes the text container fill the remaining space */
+    min-height: 200px; /* Set a fixed height for text containers */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bg-secondary p {
+    text-align: justify;
+    line-height: 1.5;
+    height: 100px; /* Adjust the height to match other cards */
+    overflow: hidden; /* Ensures text doesn't overflow */
+}
+
+</style>
 <!-- Service End -->
 
 <!-- Modal for Solar Power Solutions -->
@@ -657,6 +698,32 @@
             </div>
         </div>
     </div>
+
+    
+    <style>
+        .contact-form .form-control {
+    height: 45px; /* Standard input height */
+    font-size: 16px;
+    padding: 10x 15px;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    height: 1px; /* Adjust textarea height */
+    resize: none;
+}
+
+.contact-form .control-group {
+    margin-bottom: 15px; /* Add spacing between fields */
+}
+
+.contact-form button {
+    padding: 12px 25px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+    </style>
     <!-- Contact End -->
 
 
