@@ -215,7 +215,7 @@
                     <div class="bg-secondary text-center p-4">
                         <h3 class="m-0">Power Plant Development & Operation</h3>
                         <p>
-                            Lumaflow Energy specializes in the design, construction, and management of large-scale power plants. We integrate thermal, hydro, and hybrid energy solutions to ensure a consistent and efficient power supply. Our advanced energy storage systems are designed to maintain uninterrupted electricity production, even during peak demand periods.
+                            Lumaflow Energy focuses on designing, constructing, and managing large-scale power plants. We combine thermal, hydro, and hybrid energy solutions to deliver a stable and efficient power supply.
                         </p>
                     </div>
                 </div>
@@ -231,7 +231,7 @@
                     </div>
                     <div class="bg-secondary text-center p-4">
                         <h3 class="m-0">Power Generation & Distribution</h3>
-                        <p>We provide high-efficiency electricity generation tailored to industrial and commercial needs. Our expertise extends to grid stabilization and transmission solutions, ensuring a reliable power distribution network. Additionally, we are committed to sustainable energy solutions that help reduce carbon footprints and promote environmental responsibility.</p>
+                        <p>We provide high-efficiency electricity generation tailored to industrial and commercial needs. Our expertise extends to grid stabilization and transmission solutions, ensuring a reliable power distribution network.</p>
                     </div>
                 </div>
             </div>
@@ -246,7 +246,7 @@
                     </div>
                     <div class="bg-secondary text-center p-4">
                         <h3 class="m-0">Telecommunication Power Solutions</h3>
-                        <p>Our telecommunication power solutions ensure a stable and reliable power infrastructure for telecom networks. We offer backup power solutions for telecom towers and data centers, minimizing downtime and enhancing connectivity. Our energy-efficient power systems help telecommunication providers maintain seamless operations in all conditions.</p>
+                        <p>Our telecommunication power solutions ensure a stable and reliable power infrastructure for telecom networks.</p>
                     </div>
                 </div>
             </div>
@@ -261,7 +261,7 @@
                     </div>
                     <div class="bg-secondary text-center p-4">
                         <h3 class="m-0">Renewable Energy Solutions (SolarFlow Subsidiary)</h3>
-                        <p>Through our subsidiary SolarFlow, we develop and maintain solar power plants to promote renewable energy adoption. We provide customized solar energy solutions for commercial and industrial applications, ensuring efficient and sustainable power generation. Additionally, our off-grid and hybrid solar power systems offer energy independence for remote and rural areas.</p>
+                        <p>Through our subsidiary SolarFlow, we develop and maintain solar power plants to promote renewable energy adoption. We provide customized solar energy solutions for commercial and industrial applications, ensuring efficient and sustainable power generation.</p>
                     </div>
                 </div>
             </div>
@@ -291,7 +291,7 @@
                     </div>
                     <div class="bg-secondary text-center p-4">
                         <h3 class="m-0">Energy Storage Solutions</h3>
-                        <p>Store your energy for use during peak hours or emergencies with our energy storage systems. We provide a range of options to help you keep your energy costs down and ensure a reliable energy supply when you need it most.</p>
+                        <p>Store your energy for use during peak hours or emergencies with our energy storage systems.</p>
                     </div>
                 </div>
             </div>
@@ -326,6 +326,36 @@
     height: 100px; /* Adjust the height to match other cards */
     overflow: hidden; /* Ensures text doesn't overflow */
 }
+
+.bg-secondary {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 300px; /* Adjust based on content */
+    height: 100%;
+}
+
+.product-item {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.product-item .product-img {
+    flex-shrink: 0;
+}
+
+.product-item .bg-secondary {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-item .bg-secondary p {
+    flex-grow: 1;
+    overflow-wrap: break-word;
+}
+
 
 </style>
 <!-- Service End -->
@@ -545,36 +575,8 @@
 
 
 
-<div class="container-fluid py-5" id="faqs" style="background-color: #f8f9fa;">
-    <div class="container py-5">
-        <div class="section-title position-relative text-center">
-            <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">FAQs</h6>
-            <h1 class="display-4">Why Switch to Solar?</h1>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <div class="text-center">
-                    <h5 class="mb-3">
-                        <i class="fas fa-sun text-primary mr-2"></i>
-                        Save money on your electricity bills by harnessing free solar energy.
-                    </h5>
-                    <h5 class="mb-3">
-                        <i class="fas fa-leaf text-primary mr-2"></i>
-                        Reduce your carbon footprint and contribute to a sustainable future.
-                    </h5>
-                    <h5 class="mb-3">
-                        <i class="fas fa-bolt text-primary mr-2"></i>
-                        Enjoy energy independence and protection from rising utility costs.
-                    </h5>
-                    <h5 class="mb-0">
-                        <i class="fas fa-coins text-primary mr-2"></i>
-                        Take advantage of government incentives and tax credits for solar installations.
-                    </h5>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+
+
 <!-- FAQs Section 1 End -->
 
 <!-- FAQs Section 2 Start -->
