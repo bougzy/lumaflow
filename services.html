@@ -61,7 +61,7 @@
 <div class="container-fluid p-0 mb-5 pb-5" id="about">
     <div class="position-relative" style="height: 60vh; min-height: 400px;">
         <!-- Background Image -->
-        <img class="position-absolute w-100 h-100" src="img/about.jpg" alt="Our Services" style="object-fit: cover;">
+        <img class="position-absolute w-100 h-100" src="img/services.jpeg" alt="Our Services" style="object-fit: cover;">
         
         <!-- Centered Content -->
         <div class="d-flex justify-content-center align-items-center" style="height: 60vh;">
@@ -96,25 +96,27 @@
         </div>
         <div class="row">
             <!-- Solar Power Solutions -->
+
             <div class="col-lg-4 mb-3">
                 <div class="product-item mb-2">
                     <div class="product-img">
-                        <img class="img-fluid" src="img/lum4.jpg" alt="Solar Power Solutions">
-                        <a type="button" class="btn btn-primary" data-toggle="modal" data-target="#solarModal">
+                        <img class="img-fluid" src="img/lum5.jpg" alt="Smart Home Energy Systems">
+                        <a type="button" class="btn btn-primary" data-toggle="modal" data-target="#smartHomeModal">
                             <i class="fa fa-2x fa-plus text-white"></i>
                         </a>
                     </div>
                     <div class="bg-secondary text-center p-4">
-                        <h3 class="m-0">Solar Power Solutions</h3>
-                        <p>Harness the power of the sun with our solar energy systems. We offer installation, maintenance, and consultation services to help you reduce electricity costs and make the switch to renewable energy.</p>
+                        <h3 class="m-0">Telecommunication Power Solutions</h3>
+                        <p>Our telecommunication power solutions ensure a stable and reliable power infrastructure for telecom networks. We offer backup power solutions for telecom towers and data centers, minimizing downtime and enhancing connectivity. Our energy-efficient power systems help telecommunication providers maintain seamless operations in all conditions.</p>
                     </div>
                 </div>
             </div>
+           
             <!-- Energy Efficiency Audits -->
             <div class="col-lg-4 mb-3">
                 <div class="product-item mb-2">
                     <div class="product-img">
-                        <img class="img-fluid" src="img/lum10.jpg" alt="Energy Efficiency Audits">
+                        <img class="img-fluid" src="img/energyeff.jpeg" alt="Energy Efficiency Audits">
                         <a type="button" class="btn btn-primary" data-toggle="modal" data-target="#auditModal">
                             <i class="fa fa-2x fa-plus text-white"></i>
                         </a>
@@ -129,7 +131,7 @@
             <div class="col-lg-4 mb-3">
                 <div class="product-item mb-2">
                     <div class="product-img">
-                        <img class="img-fluid" src="img/lum12.jpg" alt="EV Charging Solutions">
+                        <img class="img-fluid" src="img/powerplant.jpeg" alt="EV Charging Solutions" style="width:700px; height: 235px">
                         <a type="button" class="btn btn-primary" data-toggle="modal" data-target="#evChargingModal">
                             <i class="fa fa-2x fa-plus text-white"></i>
                         </a>
@@ -156,7 +158,7 @@
                 </div>
             </div>
             <!-- Smart Home Energy Systems -->
-            <div class="col-lg-4 mb-3">
+            <!-- <div class="col-lg-4 mb-3">
                 <div class="product-item mb-2">
                     <div class="product-img">
                         <img class="img-fluid" src="img/lum5.jpg" alt="Smart Home Energy Systems">
@@ -167,6 +169,20 @@
                     <div class="bg-secondary text-center p-4">
                         <h3 class="m-0">Telecommunication Power Solutions</h3>
                         <p>Our telecommunication power solutions ensure a stable and reliable power infrastructure for telecom networks. We offer backup power solutions for telecom towers and data centers, minimizing downtime and enhancing connectivity. Our energy-efficient power systems help telecommunication providers maintain seamless operations in all conditions.</p>
+                    </div>
+                </div>
+            </div> -->
+            <div class="col-lg-4 mb-3">
+                <div class="product-item mb-2">
+                    <div class="product-img">
+                        <img class="img-fluid" src="img/lum4.jpg" alt="Solar Power Solutions">
+                        <a type="button" class="btn btn-primary" data-toggle="modal" data-target="#solarModal">
+                            <i class="fa fa-2x fa-plus text-white"></i>
+                        </a>
+                    </div>
+                    <div class="bg-secondary text-center p-4">
+                        <h3 class="m-0">Solar Power Solutions</h3>
+                        <p>Harness the power of the sun with our solar energy systems. We offer installation, maintenance, and consultation services to help you reduce electricity costs and make the switch to renewable energy.</p>
                     </div>
                 </div>
             </div>
@@ -188,6 +204,26 @@
         </div>
     </div>
 </div>
+
+<style>
+    .product-item {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.product-item .bg-secondary {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-item .bg-secondary p {
+    flex-grow: 1;
+}
+
+</style>
 <!-- Service End -->
 
 <!-- Modal for Solar Power Solutions -->

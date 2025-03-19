@@ -4002,7 +4002,7 @@ input[type="button"].btn-block {
 }
 
 .navbar {
-  position: relative;
+  position: fixed;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -9515,6 +9515,20 @@ h4, h5, h6 {
 .navbar-dark {
   display: none;
 }
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensures it stays above other elements */
+  background-color: #fff; /* Ensure visibility */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
+}
+
+
+
+
 
 .navbar-dark .navbar-nav .nav-link {
   padding: 25px 10px;
